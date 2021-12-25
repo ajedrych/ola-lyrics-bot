@@ -7,9 +7,9 @@ Connect to Spotify and Genius to post lyrics on [Twitter](https://twitter.com/ol
 
 To run it locally, you will need to install libraries:
 
-<code>
-import spotipy<br>
-import spotipy.oauth2 as oauth2
+
+    import spotipy <br>
+    import spotipy.oauth2 as oauth2 <br>
 from spotipy.oauth2 import SpotifyOAuth
 from spotipy.oauth2 import SpotifyClientCredentials
 import lyricsgenius    
@@ -17,7 +17,7 @@ import tweepy
 import random   
 import os   
 from dotenv import load_dotenv
-</code>
+
 
 ### 🎓 Project
 
