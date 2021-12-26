@@ -17,12 +17,12 @@ To run it locally, you will need to install libraries:
     import os   
     from dotenv import load_dotenv
 
-### What else can be added?
+#### What else can be added?
 
  - [ ] bot deployment
  - [ ] function, which checks the length of last_seen_ids.txt and keeps only the 10 most recent tweet id
 
-### 🎓 Project
+#### 🎓 Project
 
 Ola lyrics bot was made as a course credit project.
 
