@@ -9,6 +9,7 @@ def get_tweet(id):
     tweet = api.get_tweet(id, expansions=['author_id'], user_fields=['username'])
     return tweet
 
+#Search recent ten quote tweets or mention - tweet must contain the phrase "olalyricsbot"
 def quote_tweets(query, max_results):
     tweets = api.search_recent_tweets(query=query, max_results=max_results)
     results = []
@@ -21,3 +22,4 @@ def quote_tweets(query, max_results):
             obj['text'] = tweet.text
             results.append(obj)
     return results
+
