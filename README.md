@@ -7,15 +7,11 @@ Connect to [Spotify](https://open.spotify.com/playlist/2VQxlEsq39DGjFxJ0o5nMo?si
 
 To run it locally, you will need to install libraries:
 
-    import spotipy
-    import spotipy.oauth2 as oauth2
-    from spotipy.oauth2 import SpotifyOAuth
-    from spotipy.oauth2 import SpotifyClientCredentials
-    import lyricsgenius    
-    import tweepy    
-    import random   
-    import os   
-    from dotenv import load_dotenv
+    pip install -r requirements.txt
+
+If it is in another directory, specify its path like:
+
+    pip install -r path/to/requirements.txt.
 
 #### What else can be added?
 

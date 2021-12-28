@@ -1,0 +1,7 @@
+spotipy
+spotipy.oauth2
+lyricsgenius
+tweepy
+random
+os
+dotenv
