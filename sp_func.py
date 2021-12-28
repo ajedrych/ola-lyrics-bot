@@ -8,7 +8,6 @@ import random
 import os
 from dotenv import load_dotenv
 
-
 def download_song_ids(sp, username, playlist_id):
     song_ids = []
     playlist = sp.user_playlist(username, playlist_id)
