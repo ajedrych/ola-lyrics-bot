@@ -22,4 +22,3 @@ def quote_tweets(query, max_results):
             obj['text'] = tweet.text
             results.append(obj)
     return results
-
