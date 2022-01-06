@@ -18,6 +18,7 @@ If it is in another directory, specify its path like:
  - [ ] bot deployment
  - [ ] function, which checks the length of last_seen_ids.txt and keeps only the 10 most recent tweet id
  - [ ] wordcloud from song lyrics
+ - [ ] fix the bug! [bug](Images/bug_1.png)
 
 #### 🎓 Project
 
